@@ -37,11 +37,18 @@ public class Program {
 
          */
 
+
+        /*
         System.out.println("\n=== TEST 5: seller UPDATE =====");
         Seller seller = sellerDao.findById(1);
         seller.setName("Billy Bruto");
         seller.setEmail("fuckHomelander@gmail.com");
         sellerDao.update(seller);
+        System.out.println("Update completed");
+
+         */
+
+       sellerDao.deleteById(12);
         System.out.println("Update completed");
 
     }
